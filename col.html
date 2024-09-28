@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagination</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+}
+
+.pagination {
+    display: flex;
+    
+    align-items: center;
+    padding: 20px;margin-left: 10%;
+}
+
+.pagination a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    margin: 0 5px;
+    color: #555;
+    font-size: 16px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.pagination a:hover {
+    background-color: #f0f0f0;
+}
+
+.pagination a.active {
+    background-color: #333;
+    color: #fff;
+}
+
+.pagination .fas {
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    .pagination a {
+        width: 35px;
+        height: 35px;
+        font-size: 14px;
+    }
+}
+
+    </style>
+</head>
+<body>
+
+    <div class="pagination">
+        <a href="#" class="first-page"><i class="fas fa-angle-double-left"></i></a>
+        <a href="#" class="prev-page"><i class="fas fa-angle-left"></i></a>
+        <a href="#" class="page-number active">1</a>
+        <a href="#" class="page-number">2</a>
+        <a href="#" class="page-number">3</a>
+        <a href="#" class="page-number">4</a>
+        <a href="#" class="page-number">5</a>
+        <a href="#" class="next-page"><i class="fas fa-angle-right"></i></a>
+        <a href="#" class="last-page"><i class="fas fa-angle-double-right"></i></a>
+    </div>
+
+</body>
+</html>
+

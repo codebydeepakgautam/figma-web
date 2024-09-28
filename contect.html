@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+    <link rel="shortcut icon" href="6324606.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <link rel="stylesheet" href="content.css">
+    <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav style="padding-left: 5%;" class="navbar navbar-expand-lg bg-dark ">
+      <div class="container-fluid">
+        <!-- Brand/Logo -->
+        <a class="navbar-brand " href="index.html">
+          <img src="Group 176102.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top center">
+          <img src="Beyond Dictionary.png" alt="">
+        </a>
+        
+        <!-- Navbar Toggler (hamburger icon) -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <!-- Collapsible Content (Navbar Links) -->
+        <div class="collapse navbar-collapse justify-content-center " id="navbarNav">
+          <ul  class="navbar-nav">
+            <li class="nav-item">
+              <a id="text-a" class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a id="text-a" class="nav-link" href="#">About the site</a>
+            </li>
+            <li class="nav-item">
+              <a id="text-a" class="nav-link" href="#">My Words</a>
+            </li>
+            <li class="nav-item">
+              <a id="text-a" class="nav-link" href="#">Bolgs</a>
+            </li>
+            <li class="nav-item">
+              <a id="text-a" class="nav-link" href="#">FAQS</a>
+            </li>
+            <li class="nav-item"></li>
+              <a id="text-a" class="nav-link" href="#">Sign in</a>
+            </li>
+          </ul>
+        </div>
+        
+        <!-- Optional Light/Dark Mode Button -->
+        <div class="dropdown">
+          <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="themeDropdown">
+            <li><a class="dropdown-item" href="#">Light</a></li>
+            <li><a class="dropdown-item" href="#">Dark</a></li>
+            <li><a class="dropdown-item" href="#">Auto</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <span class="big-circle"></span>
+      <img src="img/shape.png" class="square" alt="" />
+      <div class="form">
+        <div class="contact-info">
+          <h3 class="title">Let's get in touch</h3>
+          <p class="text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+            dolorum adipisci recusandae praesentium dicta!
+          </p>
+
+          <div class="info">
+            <div class="information">
+              <i class="fas fa-map-marker-alt"></i> &nbsp &nbsp
+
+              <p>92 Cherry Drive Uniondale, NY 11553</p>
+            </div>
+            <div class="information">
+              <i class="fas fa-envelope"></i> &nbsp &nbsp
+              <p>lorem@ipsum.com</p>
+            </div>
+            <div class="information">
+              <i class="fas fa-phone"></i>&nbsp&nbsp
+              <p>123-456-789</p>
+            </div>
+          </div>
+
+          <div class="social-media">
+            <p>Connect with us :</p>
+            <div class="social-icons">
+              <a href="#">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form">
+          <span class="circle one"></span>
+          <span class="circle two"></span>
+
+          <form id="figma project"  method="post" action="https://script.google.com/macros/s/AKfycbze0X3V1ToW9zSTa5zyyWjZkuoeCOE_JiFOTO2wmeTSMKW46KL1d4bBMVr1BHwg8EkdnQ/exec" autocomplete="off">
+            <h3 class="title">Contact us</h3>
+            <div class="input-container">
+              <input type="text" name="name" class="input" />
+              <label for="">Username</label>
+              <span>Username</span>
+            </div>
+            <div class="input-container">
+              <input type="email" name="email" class="input" />
+              <label for="">Email</label>
+              <span>Email</span>
+            </div>
+            <div class="input-container">
+              <input type="tel" name="phone" class="input" />
+              <label for="">Phone</label>
+              <span>Phone</span>
+            </div>
+            <div class="input-container textarea">
+              <textarea name="message" class="input"></textarea>
+              <label for="">Message</label>
+              <span>Message</span>
+            </div>
+            <input type="submit" value="Send" class="btn" />
+          </form>
+        </div>
+      </div>
+    </div>
+
+    
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

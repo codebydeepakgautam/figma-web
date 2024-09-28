@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Author Info</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <style>
+       body {
+    font-family: Arial, sans-serif;
+}
+
+.author-info {
+   display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #555;
+    
+}
+
+.author-img {
+   
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.author-details {
+   
+    flex-direction: column;
+}
+
+.author-name {
+    
+    font-weight: bold;
+    font-size: 16px;
+    color: #000;
+}
+
+.publication-info {
+  
+    align-items: center;
+    gap: 15px;
+    font-size: 14px;
+    color: #777;
+}
+
+.publication-info i {
+    margin-right: 5px;
+}
+
+@media (max-width: 768px) {
+    .author-info {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .publication-info {
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+}
+
+    </style>
+</head>
+<body>
+
+<div class="author-info">
+    <img src="https://via.placeholder.com/40" alt="Author" class="author-img">
+    <div class="author-details">
+        <span class="author-name">Abhishek Anand</span>
+        <span class="publication-info">
+            <i class="fas fa-calendar-alt"></i> 02 Dec, 2024
+            <i class="fas fa-clock"></i> 3 Min. To Read
+        </span>
+    </div>
+</div>
+
+</body>
+</html>
